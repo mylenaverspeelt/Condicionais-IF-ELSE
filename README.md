@@ -2,9 +2,13 @@
 
 Lista de exercicios de if-else com typescript
 
-É obrigatório o uso de if-else, e evite ao máximo usar metódos prontos do javascript.
-Lembre-se sempre de tipar todas as variaveis e funções que for usar.
-Todos os exercicios devem ser feitos com funções.
+Uso obrigatório de laços de condicionais: Todos os exercícios desta lista devem obrigatoriamente utilizar condicionais (if, if-else, else-if etc). Evite ao máximo o uso de métodos prontos do JavaScript. O objetivo é que você implemente a lógica de condicionais manualmente.
+
+Tipagem: Lembre-se de sempre tipar corretamente todas as variáveis, parâmetros e retornos das funções. 
+
+Funções para cada exercício: Cada exercício deve ser implementado dentro de uma função. Essa função deve receber os parâmetros necessários e retornar os resultados adequados. A estrutura e a lógica de cada exercício devem estar contidas exclusivamente dentro dessas funções.
+
+Respeito às boas práticas de código: Procure manter o código limpo e organizado, utilizando nomes de variáveis e funções claros e expressivos. Evite duplicação de código e siga uma lógica clara em suas implementações.
 
 # Instalação
 
