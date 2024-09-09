@@ -1,9 +1,3 @@
-function teste(){
-  prompt('testeeeeeeeeeeeeeeeeeeeeeeee')
-}
-
-teste()
-
 
 function determinarMaiorMenorDeQuatro() {
   const readline = require("readline");
@@ -33,23 +27,23 @@ function determinarMaiorMenorDeQuatro() {
 
           let maiorNumero: number = 0;
           let menorNumero: number = 0;
-          // [6,3,2,60]
+         
+          menorNumero = arrayNumeros[0];
+          
           for (let i = 0; i < arrayNumeros.length; i++) {
 
             if (arrayNumeros[i] > maiorNumero) {
               maiorNumero = arrayNumeros[i]
             }
 
-
             if (arrayNumeros[i] < menorNumero) {
               menorNumero = arrayNumeros[i]
             }
           }
-          console.log(maiorNumero)
-          console.log(menorNumero)
+          console.log("O maior numero é: ", maiorNumero)
+          console.log("O menor numero é: ",menorNumero)
           teclado.close();
         })
-
 
       }
       );
