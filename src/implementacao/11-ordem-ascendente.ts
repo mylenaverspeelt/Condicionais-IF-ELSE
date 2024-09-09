@@ -13,30 +13,22 @@ function ordenarAscendente() {
         "Digite o terceiro numero: ",
         (terceiroNumero: string) => {
           let numero3 = parseInt(terceiroNumero);
-
-          let arrayNumeros: number[] = [numero1, numero2, numero3];
-
-          let numeroMaior: number = 0;
-          let numeroMenor: number = 0;
-          let numeroMeio: number = 0;
-
-          numeroMenor = arrayNumeros[0];
-          
-
-          for (let i = 0; i < arrayNumeros.length; i++) {
-            if (numeroMaior < arrayNumeros[i]) {
-              numeroMaior = arrayNumeros[i];
-
-            } else if ( arrayNumeros[i] < numeroMenor) {
-              numeroMenor = arrayNumeros[i];
-
+ 
+          if (numero1 <= numero2 && numero1 <= numero3) {
+            if (numero2 <= numero3) {
+              console.log(numero1, numero2, numero3)
             } else {
-                numeroMeio = arrayNumeros[i];
+              console.log(numero1, numero3, numero2)
             }
-
-            teclado.close();
+          } else {
+            if (numero2 >= numero3) {
+              console.log(numero3, numero2, numero1)
+            } else {
+              console.log(numero2, numero3, numero1)
+            }
           }
-          console.log(numeroMenor,numeroMeio, numeroMaior);
+
+          teclado.close();
         }
       );
     });
